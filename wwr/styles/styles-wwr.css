@@ -1,87 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:wght@400;700&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
-  }
-
-nav a{
-  text-align: center;
-  text-decoration: none;
 }
 
-#hero-msg h1{
-  text-align: center;
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
 }
 
-#hero-msg h4{
-  text-align: center;
+#hero-msg h1 {
+    text-align: center;
 }
 
-.button-box{
-  text-align: center;
+#hero-msg h4 {
+    text-align: center;
 }
 
-main section{
-  text-align: center;
+.button-box {
+    text-align: center;
 }
 
-#background{
-  height: 725px;
+main section {
+    text-align: center;
 }
 
-body{
-  background-color: #e9eef7;
-  color: #222E50 ;
+#background {
+    height: 725px;
 }
 
-header{
-  background-color: #2A4849;
-  color: #222E50 ;
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: #e9eef7;
+    color: #222E50;
+    margin: 0;
+    padding: 0;
 }
 
-nav a:hover{
-  background-color: #e9eef7;
-  color: #222E50 ;
+.home-title {
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 2em; /* Twice the default font size */
+    margin-top: 10px;
 }
 
-.book{
-  background-color: #e9eef7;
-  color: #222E50 ;
-  text-decoration: none;
+header {
+    background-color: #2A4849;
+    color: #222E50;
 }
 
-.join{
-  background-color: #e9eef7;
-  color: #222E50 ;
-  text-decoration: none;
+nav a:hover {
+    background-color: #e9eef7;
+    color: #222E50;
 }
 
-.book:hover{
-  background-color: #e9eef7;
-  color: #222E50 ;
+.book, .join {
+    background-color: #e9eef7;
+    color: #222E50;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.join:hover{
-  background-color: #e9eef7;
-  color: #222E50 ;
+.book:hover, .join:hover {
+    background-color: #222E50;
+    color: #e9eef7;
 }
 
-#background{
-  background-color: #2A4849;
-  color: #222E50 ;
+.msg {
+    background-color: #2A4849;
+    color: #222E50;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg{
-  background-color: #2A4849;
-  color: #222E50 ;
+.msg p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
-footer{
-  background-color: #2A4849;
-  color: #222E50 ;
-  text-decoration: none;
-  font-size: 1.2em;
+#background {
+    background-color: #2A4849;
+    color: #222E50;
 }
 
-.logo{
-  width: 80px;
+footer {
+    background-color: #2A4849;
+    color: #222E50;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.logo {
+    width: 80px;
 }
